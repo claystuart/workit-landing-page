@@ -1,19 +1,15 @@
 import './App.css'
 import Header from './Header';
-//  import Main from './Main';
-// import Footer from './Footer';
+import SellingPoints from './SellingPoints';
+import Footer from './Footer';
 
-function App() {
-
-
+export default function App() {
 
   return (
     <>
       <Header />
-      {/* <Main />
-      <Footer /> */}
+      <SellingPoints />
+      <Footer />
     </>
   )
 }
-
-export default App
