@@ -1,16 +1,17 @@
 import './App.css'
+import Header from './Header';
+//  import Main from './Main';
+// import Footer from './Footer';
 
 function App() {
 
+
+
   return (
     <>
-
-      {/* <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a> */}
-
-
-
+      <Header />
+      {/* <Main />
+      <Footer /> */}
     </>
   )
 }
