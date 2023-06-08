@@ -120,4 +120,22 @@ header .underline {
   }
 }
 @media (min-width: 1440px) {
+  header {
+    width: 1440;
+    height: 540px;
+    background-color: transparent;
+  }
+
+  /* Fill in header with purple down to flat point */
+  header::before {
+    display: none;
+  }
+
+  /* Create angled bottom and make wider to get correct angle */
+  header::after {
+    width: 2138px;
+    height: 1353px;
+    left: -650px;
+    top: -813px;
+  }
 }
