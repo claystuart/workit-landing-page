@@ -14,4 +14,6 @@
 
 `$ npm run build`
 
-# Notes
+# Curved Header (How-to)
+
+# Deploy to Github Pages (How-to)

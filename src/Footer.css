@@ -15,7 +15,7 @@ footer article {
   margin-top: -54px;
   width: 343px;
   height: 375px;
-  background-color: #24053e;
+  background-color: var(--purple);
   color: white;
   display: flex;
   flex-direction: column;
@@ -43,16 +43,17 @@ footer button {
   margin-top: 24px;
   width: 172px;
   height: 55px;
-  color: #24053e;
+  color: var(--purple);
   font-size: 16px;
-  background-color: #44ffa1;
+  background-color: var(--green);
   border: none;
   cursor: pointer;
+  font-weight: bold;
 }
 
 footer button:hover {
-  color: #44ffa1;
-  border: 1px solid #44ffa1;
+  color: var(--green);
+  border: 1px solid var(--green);
   background-color: transparent;
 }
 
@@ -67,32 +68,24 @@ footer .contact-area {
   justify-content: space-between;
 }
 
-.logo {
+.footer-logo {
   width: 96px;
   height: 25px;
 }
 
-.logo path {
-  fill: #24053e;
-}
+/* .logo path {
+  fill: var(--purple);
+} */
 
 footer .contact-icons {
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
+  align-items: center;
 }
 
-.icon {
-  width: 20px;
-  height: 20px;
-}
-
-.icon path {
-  fill: #584d62;
-}
-
-.icon path:hover {
+svg:hover path {
+  fill: var(--purple);
   cursor: pointer;
-  fill: #24053e;
 }

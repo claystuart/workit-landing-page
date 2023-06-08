@@ -7,6 +7,12 @@
   text-rendering: optimizeLegibility;
 }
 
+:root {
+  --purple: #24053e;
+  --green: #44ffa1;
+  --gray: #584d62;
+}
+
 body {
   margin: 0;
   height: 100vh;

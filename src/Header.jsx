@@ -1,8 +1,7 @@
 import './Header.css';
 import logo from './assets/images/logo-light.svg';
 
-
-function Header() {
+export default function Header() {
     return (
         <header>
             <div className="titleBar">
@@ -16,5 +15,3 @@ function Header() {
         </header>
     );
 }
-
-export default Header;

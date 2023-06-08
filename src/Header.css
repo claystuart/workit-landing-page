@@ -17,7 +17,7 @@ header::before {
   width: 375px;
   height: 419px;
   color: white;
-  background-color: #24053e;
+  background-color: var(--purple);
   position: absolute;
   z-index: -1;
 }
@@ -28,7 +28,7 @@ header::after {
   width: 784px;
   height: 459px;
   color: white;
-  background-color: #24053e;
+  background-color: var(--purple);
   position: absolute;
   z-index: -1;
   border-radius: 50%;
@@ -63,7 +63,7 @@ header h2 {
 }
 
 header h2:hover {
-  color: #44ffa1;
+  color: var(--green);
   cursor: pointer;
 }
 
@@ -76,7 +76,7 @@ header h2:hover {
 header button {
   width: 133px;
   height: 55px;
-  background-color: #44ffa1;
+  background-color: var(--green);
   margin-top: 40px;
   border: none;
   display: block;
@@ -84,17 +84,17 @@ header button {
   font-size: 16px;
   font-weight: bold;
   letter-spacing: -0.16px;
-  color: #24053e;
+  color: var(--purple);
 }
 
 header button:hover {
   cursor: pointer;
-  color: #44ffa1;
-  border: 1px solid #44ffa1;
+  color: var(--green);
+  border: 1px solid var(--green);
   background-color: transparent;
 }
 
 header .underline {
-  border-bottom: 3px solid #44ffa1;
+  border-bottom: 3px solid var(--green);
   line-height: 26px;
 }

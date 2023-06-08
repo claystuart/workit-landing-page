@@ -1,9 +1,11 @@
 import "./Footer.css";
 import founder from './assets/images/image-founder.webp';
-import logo from './assets/images/logo-dark.svg';
+import footerlogo from './assets/images/logo-dark.svg';
 import facebook from './assets/images/icon-facebook.svg';
 import twitter from './assets/images/icon-twitter.svg';
 import instagram from './assets/images/icon-instagram.svg';
+
+import { ReactSVG } from "react-svg";
 
 export default function Footer() {
     return (
@@ -17,12 +19,12 @@ export default function Footer() {
                 <button>Apply for access</button>
             </article>
             <div className="contact-area">
-                <img src={logo} className="logo" alt="workit" />
+                <img src={footerlogo} alt="workit" className="footer-logo" />
 
                 <div className="contact-icons">
-                    <img src={facebook} className="icon" alt="workit" />
-                    <img src={twitter} className="icon" alt="workit" />
-                    <img src={instagram} className="icon" alt="workit" />
+                    <ReactSVG src={facebook} alt="facebook" />
+                    <ReactSVG src={twitter} alt="twitter" />
+                    <ReactSVG src={instagram} alt="instagram" />
                 </div>
             </div>
         </footer>
