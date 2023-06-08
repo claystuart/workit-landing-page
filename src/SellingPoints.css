@@ -50,3 +50,8 @@ main .img__phone {
   width: 320px;
   height: 184px;
 }
+
+@media (min-width: 768px) {
+}
+@media (min-width: 1440px) {
+}

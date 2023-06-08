@@ -73,10 +73,6 @@ footer .contact-area {
   height: 25px;
 }
 
-/* .logo path {
-  fill: var(--purple);
-} */
-
 footer .contact-icons {
   display: flex;
   flex-direction: row;
@@ -88,4 +84,9 @@ footer .contact-icons {
 svg:hover path {
   fill: var(--purple);
   cursor: pointer;
+}
+
+@media (min-width: 768px) {
+}
+@media (min-width: 1440px) {
 }
