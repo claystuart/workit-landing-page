@@ -73,13 +73,9 @@ main article p {
   margin-top: 16px;
 }
 
-.pinkBackground {
-}
-
 @media (min-width: 768px) {
   main {
-    margin-left: 78px;
-    margin-top: 200px;
+    width: 768px;
   }
 
   main article {
@@ -91,8 +87,11 @@ main article p {
       "number description";
     width: 573px;
     height: 108px;
-    margin-left: 97px;
     margin-bottom: 48px;
+  }
+
+  main article:first-of-type {
+    margin-top: 350px;
   }
 
   main article h1 {
@@ -113,6 +112,21 @@ main article p {
   main article p {
     grid-area: description;
     text-align: left;
+  }
+
+  main {
+    background-color: transparent;
+  }
+
+  main::before {
+    background-color: #fcf8ff;
+    height: 1067px;
+    width: 1600px;
+    border-radius: 0 0 50% 50%;
+  }
+
+  main::after {
+    display: none;
   }
 }
 @media (min-width: 1440px) {
