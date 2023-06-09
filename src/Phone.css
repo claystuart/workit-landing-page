@@ -1,0 +1,9 @@
+.container {
+  position: relative;
+}
+
+.img__phone {
+  position: absolute;
+  top: 360px;
+  left: 30px;
+}
