@@ -77,13 +77,6 @@ main article p {
 }
 
 @media (min-width: 768px) {
-  main .img__phone {
-    top: -325px;
-    left: 73px;
-    width: 514px;
-    height: 296px;
-  }
-
   main {
     margin-left: 78px;
     margin-top: 200px;

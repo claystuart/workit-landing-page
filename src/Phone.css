@@ -7,3 +7,15 @@
   top: 360px;
   left: 30px;
 }
+
+@media (min-width: 768px) {
+  .img__phone {
+    width: 514px;
+    height: 296px;
+    top: 426px;
+    left: 159px;
+  }
+}
+
+@media (min-width: 1440px) {
+}
