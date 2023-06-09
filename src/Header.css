@@ -104,6 +104,15 @@ header .underline {
   display: none;
 }
 
+.img__phone {
+  position: absolute;
+  top: 393px;
+  left: 39px;
+  width: 320px;
+  height: 184px;
+  z-index: 20;
+}
+
 @media (min-width: 768px) {
   header {
     width: 768px;

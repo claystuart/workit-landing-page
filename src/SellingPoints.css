@@ -1,10 +1,36 @@
 main {
-  margin-top: 114px;
   width: 375px;
+  height: 1070px;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
+  background-color: #fcf8ff;
+  background-color: transparent;
+  margin-top: -100px;
+  z-index: -10;
+  overflow: hidden;
+}
+
+main::before {
+  content: "";
+  background-color: #fcf8ff;
+  width: 784px;
+  height: 700px;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+}
+
+main::after {
+  content: "";
+  background-color: #fcf8ff;
+  width: 784px;
+  height: 459px;
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+  top: 609px;
 }
 
 main article {
@@ -14,6 +40,10 @@ main article {
   flex-direction: column;
   align-items: center;
   margin-bottom: 40px;
+}
+
+main article:first-of-type {
+  margin-top: 230px;
 }
 
 main article h1 {
@@ -43,12 +73,7 @@ main article p {
   margin-top: 16px;
 }
 
-main .img__phone {
-  position: absolute;
-  top: -244px;
-  left: 43px;
-  width: 320px;
-  height: 184px;
+.pinkBackground {
 }
 
 @media (min-width: 768px) {
