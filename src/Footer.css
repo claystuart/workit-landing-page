@@ -87,6 +87,41 @@ svg:hover path {
 }
 
 @media (min-width: 768px) {
+  footer {
+    width: 768px;
+    align-items: start;
+  }
+
+  footer .founder-image {
+    margin-left: 39px;
+  }
+  footer article {
+    width: 514px;
+    height: 375px;
+    margin-left: 216px;
+    margin-top: -127px;
+  }
+
+  footer article h1 {
+    font-size: 48px;
+    margin-top: 48px;
+  }
+
+  footer article p {
+    width: 402px;
+    height: 112px;
+    text-align: left;
+    margin-top: 24px;
+  }
+
+  footer button {
+    margin-left: 56px;
+    align-self: flex-start;
+  }
+
+  footer .contact-area {
+    align-self: center;
+  }
 }
 @media (min-width: 1440px) {
 }
