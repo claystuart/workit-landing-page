@@ -76,6 +76,7 @@ main article p {
 @media (min-width: 768px) {
   main {
     width: 768px;
+    height: 914px;
   }
 
   main article {
@@ -120,7 +121,7 @@ main article p {
 
   main::before {
     background-color: #fcf8ff;
-    height: 1067px;
+    height: 900px;
     width: 1600px;
     border-radius: 0 0 50% 50%;
   }

@@ -90,6 +90,7 @@ svg:hover path {
   footer {
     width: 768px;
     align-items: start;
+    margin-top: 48px;
   }
 
   footer .founder-image {
